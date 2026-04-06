@@ -49,6 +49,7 @@ nav ul li{
     color: #fff;
     text-align: center;
     padding: 140px 0;
+    height: auto;
 }
 
 .hero h2{
@@ -62,6 +63,7 @@ nav ul li{
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .search-box input{
@@ -72,3 +74,15 @@ nav ul li{
     border-radius: 5px 0 0 5px;
     font-size: 1rem;
 }
+
+.search-box button{
+    padding: 10px 20px;
+    outline: none;
+    border: 0;
+    border-radius: 0 5px 5px 0;
+    font-size: 1rem;
+    background:red;
+    color: #fff;
+    cursor: pointer;
+}
+
