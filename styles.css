@@ -28,6 +28,10 @@ header{
     justify-content: space-between;
 }
 
+.nav-list{
+    display: none;
+}
+
 nav ul li{
     list-style: none;
     display: inline;
@@ -147,6 +151,29 @@ footer{
     text-align: center;
 }
 
+.menu-icon{
+    color: white;
+    font-size: 24px;
+    padding: 20px;
+    text-align: right;
+    cursor: pointer;
+    display: block;
+}
+
 @media only screen and(min-width:768px){
-    
+   /*.menu-icon{
+    display: none;
+   }
+
+   .nav-list{
+    display: block;
+   }*/
+
+   .hero h2{
+    font-size: 25px;
+   }
+
+   .hero p{
+    font-size: 15px;
+   }
 }
